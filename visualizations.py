@@ -8,6 +8,7 @@ df = pd.read_csv("rotten_tomatoes_predictions.csv")
 
 def accuracy_pie_chart():
     correct_counts = df['correct'].value_counts()
+    correct_counts = correct_counts.sort_index(ascending=False) 
     plt.pie(correct_counts, labels=["Incorrect", "Correct"], autopct='%1.1f%%', startangle=140)
     plt.title("Model Prediction Accuracy")
     plt.axis('equal')
