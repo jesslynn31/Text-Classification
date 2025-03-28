@@ -21,7 +21,20 @@ To visualization things, the results were put into a confusion matrix and pie ch
 ![image](https://github.com/user-attachments/assets/350173e6-f156-4f62-92db-53f4cbac815f)
 
 
-![image](https://github.com/user-attachments/assets/3e781037-e17b-4c16-9333-7cc209bc40eb)
+![image](https://github.com/user-attachments/assets/d642e8e4-cb6e-4b9f-ac29-bad76f3944dd)
 
+
+
+To analyze my data, the model performed 
+like this the first time around:
+
+
+Accuracy: 83.6%
+
+Precision: 86.7%
+
+Recall: 79.7%
+
+F1 Score: 83.0%
 
 
